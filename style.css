@@ -1,5 +1,18 @@
+/* Set the background color and text styles */
 body {
-    font-family: "Space-Mono", monospace;
+    font-family: "Space Mono", monospace;
     background-color: #212225;
     color: #5983FC;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Optional: You can also center the text */
+h1, p {
+    text-align: center;
 }
