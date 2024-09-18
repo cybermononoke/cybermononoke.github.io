@@ -1,4 +1,3 @@
-/* Set the background color and text styles */
 body {
     font-family: "Space Mono", monospace;
     background-color: #212225;
@@ -10,9 +9,42 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-/* Optional: You can also center the text */
-h1, p {
+  }
+  
+  h1, p {
     text-align: center;
-}
+  }
+  
+  .navbar {
+    background-color: #212225;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    top: 0; 
+    left: 0;
+    z-index: 1000; 
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  .navbar a {
+    color: #5983FC;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.2s ease-in-out; 
+  }
+  
+  .navbar a:hover {
+    text-shadow: 0 0 5px #5983FC, 0 0 10px #5983FC, 0 0 15px #5983FC; 
+  }
+  
